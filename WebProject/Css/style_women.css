@@ -1,0 +1,31 @@
+
+.container .products .box-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: center;
+}
+
+.container .products .box-container .box{
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  position:relative;
+  padding: 20px;
+  background-color: var(--white);
+  width: 350px;
+}
+
+.container .products .box-container .box img{
+    height: 250px;
+    border: 1px solid;
+}
+
+.container .heading{
+  text-align:center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: black;
+}

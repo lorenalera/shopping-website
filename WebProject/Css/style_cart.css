@@ -1,0 +1,56 @@
+.container{
+  margin-left: 150px;
+  border: 1px solid;
+  padding: 20px 100px;
+  width: 900px;
+  margin-top: 50px;
+}
+
+.container .shopping_cart{
+  padding: 25px 0;
+}
+
+
+table{
+  width: 100%;
+}
+
+input[type="number"]{
+  width: 80px;
+  padding: 12px 14px;
+
+}
+
+thead{
+   background-color: grey;
+
+}
+
+th{
+   padding: 15px;
+   color: white;
+   border: 1px solid;
+   font-size: 15px;
+   text-transform: capitalize;
+}
+
+@media (max-width:1150px){
+  .shopping_cart{
+    overflow-x: scroll;
+  }
+
+  table{
+    width: 900px;
+  }
+}
+
+
+@media (max-width:460px){
+  .heading{
+    font-size: 20px;
+  }
+
+  img{
+    height: 150px;
+  }
+}
